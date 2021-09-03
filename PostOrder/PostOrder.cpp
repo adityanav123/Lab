@@ -47,7 +47,7 @@ int main () {
   for (i = 0; i < porder.size(); i++) {
     if (porder[i] == value) break;
   }
-  if(i != 0) cout << porder[i-1] << "\n";
+  if(i >  0 && i < proder.size()) cout << porder[i-1] << "\n";
   else cout << "-1\n";
   return 0;
 }
